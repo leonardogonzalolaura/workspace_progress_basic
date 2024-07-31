@@ -4,7 +4,7 @@ from threading import Thread
 from progress_basic.format.color_text import AnsiColors
 
 class ProgressIndicator:
-    def __init__(self, message: str, interval: float = 0.2, color: str = AnsiColors.OKBLUE):
+    def __init__(self, message: str, interval: float = 0.4, color: str = AnsiColors.OKBLUE):
         self.message = message
         self.interval = interval
         self.color = color
