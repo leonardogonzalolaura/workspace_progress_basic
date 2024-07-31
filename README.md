@@ -2,6 +2,12 @@
 
 A Python library providing two classes for displaying progress indicators in the console: `ProgressIndicator` and `ProgressBar`. These classes help visualize ongoing tasks by displaying an animated spinner or a progress bar, respectively.
 
+[![Publish](https://github.com/leonardogonzalolaura/workspace_progress_basic/actions/workflows/publish.yml/badge.svg)](https://github.com/leonardogonzalolaura/workspace_progress_basic/actions/workflows/publish.yml)
+![PyPI version](https://img.shields.io/pypi/v/progress_basic.svg)
+
+![Python Versions](https://img.shields.io/pypi/pyversions/progress_basic.svg)
+
+
 ## Installation
 
 To install the library, you can use pip:
