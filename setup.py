@@ -8,7 +8,6 @@ setup(
     packages=find_packages(include=['progress_basic', 'progress_basic.*']),
     include_package_data=True,
     install_requires=['library_externals'],
-    test_suite='tests',
     author="leonardogonzalolaura",
     author_email="glleonardodaniel@gmail.com",
     description="A simple example of a Python library",
