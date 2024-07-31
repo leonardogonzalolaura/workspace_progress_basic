@@ -24,7 +24,7 @@ Example
 
 ```python
 from progress_basic.format.color_text import AnsiColors
-from progress_indicator import ProgressIndicator
+from progress_basic.progress_basic import ProgressIndicator
 
 with ProgressIndicator("Processing", color=AnsiColors.OKBLUE) as pi:
     # Simulate a long-running task
@@ -37,7 +37,7 @@ The ProgressBar class displays a progress bar that updates as tasks progress, wi
 Example
 ```python
 from progress_basic.format.color_text import AnsiColors
-from progress_bar import ProgressBar
+from progress_basic.progress_bar import ProgressBar
 
 total_steps = 100
 
