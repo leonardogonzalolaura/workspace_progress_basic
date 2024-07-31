@@ -3,9 +3,8 @@ import setuptools_scm
 
 setup(
     name="progress_basic",
-    # use_scm_version=True,
+    use_scm_version=True,
     setup_requires=["setuptools>=42", "setuptools_scm"],
-    version='0.1',
     packages=find_packages(include=['progress_basic', 'progress_basic.*']),
     include_package_data=True,
     install_requires=['library_externals'],
